@@ -17,28 +17,46 @@ body {
 }
 
 
-.experience {
+.category {
+  margin-bottom: 3em;
 }
-.experience h2 {
+.category h2 {
+  text-transform: uppercase;
   border-bottom: 1px solid gray;
-  -webkit-margin-after: 0em;
+  -webkit-margin-after: 0.2em;
 }
-.experience h3 {
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
+.category h3 {
+  -webkit-margin-before: 0.2em;
+  -webkit-margin-after: 0.2em;
 }
-.experience p {
-  -webkit-margin-before: 0em;
-  -webkit-margin-after: 0em;
+.category p {
+  -webkit-margin-before: 0.2em;
+  -webkit-margin-after: 0.2em;
   font-style: italic;
 }
-.experience .left-column {
+.category .accomplishment {
+  position: relative;
   text-transform: uppercase;
-  width: 45%;
-  float: left;
+  clear: none;
+  margin-bottom: 2em;
 }
-.experience .right-column {
-  float: right;
-  width: 45%;
+.category .right-column {
+  position: absolute;
+  top: 0;
+  right: 0;
   text-align: right;
+}
+.category .skills {
+  margin-top: 1em;
+  text-transform: none;
+  width: 100%;
+}
+.category .skills span{
+  font-weight: bold;
+}
+.category .list-container {
+  text-transform: none;
+}
+.category .list-container ul{
+  -webkit-margin-before: 0.2em;
 }
