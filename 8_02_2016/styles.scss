@@ -27,3 +27,18 @@ body {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
 }
+.experience p {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  font-style: italic;
+}
+.experience .left-column {
+  text-transform: uppercase;
+  width: 45%;
+  float: left;
+}
+.experience .right-column {
+  float: right;
+  width: 45%;
+  text-align: right;
+}
