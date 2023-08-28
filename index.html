@@ -1,168 +1,176 @@
 <DOCTYPE html>
-<html>
-  <head>
-    <style>
-      body {
-        margin: 10%;
-        margin-top: 3%;
-        text-align: left
-      }
+  <html>
+    <head>
+      <style>
+        body {
+          margin: 10%;
+          margin-top: 3%;
+          text-align: left;
+        }
 
+        .header {
+          text-align: center;
+        }
+        .header h2 {
+          margin-top: 0;
+          margin-bottom: 0;
+          font-size: 2em;
+        }
 
-      .header {
-        text-align: center;
-      }
-      .header h1 {
-        font-size: 3em;
-      }
+        .summary {
+          font-style: italic;
+          text-align: center;
+        }
 
-
-      .summary {
-        font-style: italic;
-      }
-
-
-      .category {
-        margin-bottom: 3em;
-      }
-      .category h2 {
-        text-transform: uppercase;
-        border-bottom: 1px solid gray;
-        -webkit-margin-after: 0.2em;
-      }
-      .category h3 {
-        margin: 0;
-        -webkit-margin-before: 0.2em;
-        -webkit-margin-after: 0.2em;
-      }
-      .category p {
-        -webkit-margin-before: 0.2em;
-        -webkit-margin-after: 0.2em;
-        font-style: italic;
-      }
-      .category .accomplishment {
-        position: relative;
-        text-transform: uppercase;
-        clear: none;
-        margin-bottom: 2em;
-      }
-      .category .right-column {
-        position: absolute;
-        top: 0;
-        right: 0;
-        text-align: right;
-      }
-      .category .skills {
-        margin-top: 1em;
-        text-transform: none;
-        width: 100%;
-      }
-      .category .skills span{
-        font-weight: bold;
-      }
-      .category .list-container {
-        text-transform: none;
-      }
-      .category .list-container ul{
-        -webkit-margin-before: 0.2em;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="header">
-      <h1>Turner M. Davis</h1>
-      <div class="contact-info">
-        <div>3639 Pasture Rd., Hillsborough, NC 27278</div>
-        <div>(919) 428-3711</div>
-        <div>turnermdavis@gmail.com</div>
-        <div>https://github.com/TurnerMooreDavis</div>
-      </div>
-    </div>
-    <div class="summary">
-      <p>
-        Web Developer with experience in a startup environment and a strong understanding of rails applications.  Trained to conceptualize complex systems through years of musical experience.
-      </p>
-    </div>
-    <div class="category">
-      <h2>Professional Experience</h2>
-      <div class="accomplishment">
-        <h3>Spoonflower</h3>
-        <p>Spoonflower Web Developer</p>
-        <div class="skills"><span>Skills and Tools: </span>Ruby, Rails, Javascript, ImageMagick, AWS</div>
-        <div class="list-container">
-          <ul>
-            <li>Developed API endpoints for Spoonflowers Fill-A-Yard feature employing ImageMagick and the AWS SDK</li>
-            <li>Updated design creation to allow for multiple simultaneous uploads and to make use of Spoonflowers Image API</li>
-            <li>Wrote an AWS Lambda function to verify and authorize JWT tokens for Spoonflowers Image API</li>
-          </ul>
-        </div>
-        <div class="right-column">
-          <h3>Durham, NC</h3>
-          <p>January 2017 - Present </p>
+        .category {
+          margin-bottom: 3em;
+        }
+        .category h2 {
+          text-transform: uppercase;
+          border-bottom: 1px solid gray;
+          -webkit-margin-after: 0.2em;
+        }
+        .category h3 {
+          margin: 0;
+          -webkit-margin-before: 0.2em;
+          -webkit-margin-after: 0.2em;
+        }
+        .category p {
+          -webkit-margin-before: 0.2em;
+          -webkit-margin-after: 0.2em;
+          font-style: italic;
+        }
+        .category .accomplishment {
+          position: relative;
+          text-transform: uppercase;
+          clear: none;
+          margin-bottom: 2em;
+        }
+        .category .right-column {
+          position: absolute;
+          top: 0;
+          right: 0;
+          text-align: right;
+        }
+        .category .skills {
+          margin-top: 1em;
+          text-transform: none;
+          width: 100%;
+        }
+        .category .skills span {
+          font-weight: bold;
+        }
+        .category .list-container {
+          text-transform: none;
+        }
+        .category .list-container ul {
+          -webkit-margin-before: 0.2em;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="header">
+        <h2>Turner M. Davis</h2>
+        <div class="contact-info">
+          <div>(919) 428-3711</div>
+          <div>turnermdavis@gmail.com</div>
+          <div>https://github.com/TurnerMooreDavis</div>
         </div>
       </div>
-      <div class="accomplishment">
-        <h3>Spoonflower</h3>
-        <p>Sprout Patterns Web Developer</p>
-        <div class="skills"><span>Skills and Tools: </span>Ruby, Rails, HTML, CSS, Javascript, Jquery, Node.js, Express</div>
-        <div class="list-container">
-          <ul>
-            <li>Built sproutpatterns.com shopping cart, making use of Stripe and Braintree payment APIs</li>
-            <li>Created or updated three of Spoonflower's Node.js API endpoints</li>
-            <li>Designed and developed a custom Javascript Color Picker which allows users to extract colors from a Spoonflower design of their choosing</li>
-            <li>Maintained sproutpatterns.com legacy code with minimal help from senior engineers</li>
-          </ul>
+      <div class="summary">
+        <p>
+          Web Developer with experience in a startup environment and a strong
+          understanding of Rails and Node applications.
+        </p>
+      </div>
+      <div class="category">
+        <h2>Professional Experience</h2>
+        <div class="accomplishment">
+          <h3>Shutterfly</h3>
+          <p>Principle Web Developer</p>
+          <div class="skills">
+            <span>Skills and Tools: </span>Node.js Javascript, Typescript,
+            PostgreSql
+          </div>
+          <div class="list-container">
+            <ul>
+              <li>
+                Created an order routing platform that allows factory
+                supervisors to route orders according to product type, shipping
+                address and factory capabilities.
+              </li>
+              <li>
+                Designed and implemented an integration test platform to test
+                the spoonflower cart using Typescript and Pupeteer
+              </li>
+              <li>
+                Architected and implemented event based api integration with
+                Shipstations API using AWS SQS, Zapier and PostgreSql
+              </li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h3>Durham, NC</h3>
+            <p>September 2021 - Present</p>
+          </div>
         </div>
-        <div class="right-column">
-          <h3>Durham, NC</h3>
-          <p>July 2015 - Decemeber 2016</p>
+        <div class="accomplishment">
+          <h3>Spoonflower</h3>
+          <p>Spoonflower Web Developer</p>
+          <div class="skills">
+            <span>Skills and Tools: </span>Ruby, Rails, Javascript, ImageMagick,
+            AWS
+          </div>
+          <div class="list-container">
+            <ul>
+              <li>
+                Refactored large sections of legacy Rails application into
+                Node.js with Typescript
+              </li>
+              <li>
+                Developed API endpoints for Spoonflowers Fill-A-Yard feature
+                employing ImageMagick and the AWS SDK
+              </li>
+
+              <li>
+                Wrote an AWS Lambda function to verify and authorize JWT tokens
+                for Spoonflowers Image API
+              </li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h3>Durham, NC</h3>
+            <p>January 2017 - September 2021</p>
+          </div>
+        </div>
+        <div class="accomplishment">
+          <h3>Spoonflower</h3>
+          <p>Sprout Patterns Web Developer</p>
+          <div class="right-column">
+            <h3>Durham, NC</h3>
+            <p>July 2015 - Decemeber 2016</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="category">
-      <h2>Education</h2>
-      <div class="accomplishment">
-        <h3>The Iron Yard</h3>
-        <p>Ruby on Rails</p>
-        <div class="skills"><span>Skills Gained: </span>Ruby, Rails, HTML, CSS</div>
-        <div class="list-container">
-          <ul>
-            <li>Developed a strong understanding of Ruby and the Rails framework</li>
-            <li>Gained a basic understanding of Testing, Debugging, Relational Databases and MVC architecture</li>
-            <li>Spent three weeks developing a networking app for musicians making use of two APIs and a D3.js visualization tool</li>
-          </ul>
+      <div class="category">
+        <h2>Education</h2>
+        <div class="accomplishment">
+          <h3>The Iron Yard</h3>
+          <p>Ruby on Rails</p>
+          <div class="right-column">
+            <h3>Durham, NC</h3>
+            <p>May 2015 - July 2015</p>
+          </div>
         </div>
-        <div class="right-column">
-          <h3>Durham, NC</h3>
-          <p>May 2015 - July 2015</p>
-        </div>
-      </div>
-      <div class="accomplishment">
-        <h3>UNC Chapel Hill</h3>
-        <p>Bachelor of Music</p>
-        <div class="skills"><span>Skills Gained: </span>Ability to conceptualize non-physical systems, ability to build upon negative and positive feedback</div>
-        <div class="list-container">
-          <ul>
-            <li>Organized and performed two solo voice recitals, each containing one hours worth of classical repetoire written in four different languages</li>
-            <li>Won first place at NATS, a statewide competition for students of classical voice</li>
-          </ul>
-        </div>
-        <div class="right-column">
-          <h3>Chapel Hill, NC</h3>
-          <p>September 2010 - May 2015</p>
+        <div class="accomplishment">
+          <h3>UNC Chapel Hill</h3>
+          <p>Bachelor of Music</p>
+          <div class="right-column">
+            <h3>Chapel Hill, NC</h3>
+            <p>September 2010 - May 2015</p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="category">
-      <h2>Additional Skills</h2>
-      <div class="accomplishment">
-        <div class="list-container">
-          <ul>
-            <li>Confident and relaxed presentation style</li>
-            <li>Able to compose, perform and record vocal music</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+    </body>
+  </html>
+</DOCTYPE>
